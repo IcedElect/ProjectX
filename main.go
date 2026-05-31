@@ -100,6 +100,8 @@ func main() {
 	fmt.Println("Платеж успешно обработан!")
 }
 
+
+
 // QUIC
 // ​IT-KAMASUTRA > плейлист back-end путь самурая 03 урок
 // package main
