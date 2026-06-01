@@ -1,6 +1,6 @@
 package main
 
-ет платежи
+
 type PaymentProcessor struct{}
 
 // NewPaymentProcessor создает новый процессор платежей
@@ -10,7 +10,7 @@ func NewPaymentProcessor() *PaymentProcessor {
 
 // ProcessPayment обрабатывает платеж
 func (pp *PaymentProcessor) ProcessPayment(method string, amount float64) error {
-	if method != "карта" && method != "СБП" {
+	if method != "наличные"{
 		return ErrUnsupportedPaymentMethod
 	}
 
